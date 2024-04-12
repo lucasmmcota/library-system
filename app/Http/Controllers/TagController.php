@@ -72,8 +72,10 @@ class TagController extends Controller
             $zplCode .= "^ARN,20,10^FO" . ($horizontal + 430) . "," . $vertical . "^FDISBN: " . $book['ISBN'] . "^FS";
             $zplCode .= "^ARN,20,10^FO" . $horizontal . "," . ($vertical + 40) . "^FDTítulo: " . $book['title'] . "^FS";
             $zplCode .= "^ARN,20,10^FO" . $horizontal . "," . ($vertical + 80) . "^FDAutor: " . $book['author'] . "^FS";
-            $zplCode .= "^BY3,2,120^FO" . $horizontal . "," . ($vertical + 150) . "^BC^FD" . $book['idBookCopie'] . "^FS";
-            $zplCode .= "^FO" . ($horizontal + 540) . "," . ($vertical + 10) . "^BQN,2,7^FDHM,N" . $book['idBookCopie'] . "^FS";
+            $zplCode .= "^BY3,2,120^FO" . $horizontal . "," . ($vertical + 150) . "^BC^FD"
+                . $book['idBookCopie'] . "^FS";
+            $zplCode .= "^FO" . ($horizontal + 540) . "," . ($vertical + 10) . "^BQN,2,7^FDHM,N"
+                . $book['idBookCopie'] . "^FS";
             $zplCode .= "^FO" . $horizontal . "," . ($vertical + 315) . "^GB700,3,3^FS";
 
             if ($i % 2 == 0) {
