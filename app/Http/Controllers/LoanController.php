@@ -76,26 +76,6 @@ class LoanController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     * @access public
-     * @param string $id
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     * @access public
-     * @param string $id
-     */
-    public function edit(string $id)
-    {
-        //
-    }
-
-    /**
      * Update the specified resource in storage.
      * @access public
      * @param Request $request
@@ -146,16 +126,6 @@ class LoanController extends Controller
         $bookCopie->update(['loaned' => 0]);
 
         return redirect()->route('loan.index')->with('success', 'Empréstimo encerrado com sucesso!');
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     * @access public
-     * @param string $id
-     */
-    public function destroy(string $id)
-    {
-        //
     }
 
     /**

@@ -55,16 +55,6 @@ class BookController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     * @access public
-     * @param string $id
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      * @access public
      * @param string $id serialized id
@@ -123,16 +113,6 @@ class BookController extends Controller
         }
 
         return redirect()->route('book.edit', ['book' => $idBookCopie])->with('success', 'Livro editado com sucesso!');
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     * @access public
-     * @param string $id
-     */
-    public function destroy(string $id)
-    {
-        //
     }
 
     /**
