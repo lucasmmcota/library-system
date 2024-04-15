@@ -66,8 +66,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "exclude": [
-        "vendor\\laravel\\framework\\src\\Illuminate\\Translation\\lang\\pt_br\\"
-    ]
+    "prefer-stable": true
 }
