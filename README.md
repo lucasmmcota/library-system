@@ -8,7 +8,7 @@ Diante disso, foi desenvolvido um projeto durante o trabalho de conclusão de cu
 
 Além disso, o sistema oferece recursos, como a geração de etiquetas para os livros, facilitando o monitoramento físico do acervo. E para contribuir na migração e aceitação do sistema, são disponibilizadas ferramentas que incluem a importação de dados de membros e livros e a leitura de código de barras e/ou QR Code para realização de empréstimos.
 
-Durante o trabalho de conclusão de curso, o projeto foi disponibilizado em produção empregando recursos da AWS (Amazon Web Services). O sistema foi implementado em uma máquina virtual utilizando o serviço da EC2 (Elastic Compute Cloud) enquanto o seu banco de dados era armazenado em nuvem com os serviços da RDS (Relational Database Service). A maneira como isto foi feito, assim como mais detalhes sobre o projeto, podem ser vistos realizando a leitura da monografia: <a href="https://www.monografias.ufop.br/handle/35400000/6052" target="_blank">SGBib : um sistema web open source para o gerenciamento de bibliotecas</a>.
+Durante o trabalho de conclusão de curso, o projeto foi disponibilizado em produção empregando recursos da AWS (Amazon Web Services). O sistema foi implementado em uma máquina virtual utilizando o serviço da EC2 (Elastic Compute Cloud) enquanto o seu banco de dados era armazenado em nuvem com os serviços da RDS (Relational Database Service). A maneira como isto foi feito, assim como mais detalhes sobre o projeto, podem ser vistos realizando a leitura da monografia: [SGBib : um sistema web open source para o gerenciamento de bibliotecas](https://www.monografias.ufop.br/handle/35400000/6052).
 
 A seguir é possível observar um passo a passo para a implementação do projeto na sua máquina.
 
