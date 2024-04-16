@@ -8,7 +8,7 @@ Diante disso, foi desenvolvido um projeto durante o trabalho de conclusão de cu
 
 Além disso, o sistema oferece recursos, como a geração de etiquetas para os livros, facilitando o monitoramento físico do acervo. E para contribuir na migração e aceitação do sistema, são disponibilizadas ferramentas que incluem a importação de dados de membros e livros e a leitura de código de barras e/ou QR Code para realização de empréstimos.
 
-Durante o trabalho de conclusão de curso, o projeto foi disponibilizado em produção empregando recursos da AWS (Amazon Web Services). O sistema foi implementado em uma máquina virtual utilizando o serviço da EC2 (Elastic Compute Cloud) enquanto o seu banco de dados era armazenado em nuvem com os serviços da RDS (Relational Database Service). A maneira como isto foi feito, assim como mais detalhes sobre o projeto, podem ser vistos realizando a leitura da monografia: [SGBib : um sistema web open source para o gerenciamento de bibliotecas](https://www.monografias.ufop.br/handle/35400000/6052).
+Durante o trabalho de conclusão de curso, o projeto foi disponibilizado em produção empregando recursos da AWS (Amazon Web Services). O sistema foi implementado em uma máquina virtual utilizando o serviço da EC2 (Elastic Compute Cloud) enquanto o seu banco de dados era armazenado em nuvem com os serviços da RDS (Relational Database Service). A maneira como isto foi feito, assim como mais detalhes sobre o projeto, podem ser vistos realizando a leitura da monografia: <a href="https://www.monografias.ufop.br/handle/35400000/6052" target="_blank">SGBib : um sistema web open source para o gerenciamento de bibliotecas</a>.
 
 A seguir é possível observar um passo a passo para a implementação do projeto na sua máquina.
 
@@ -17,15 +17,15 @@ A seguir é possível observar um passo a passo para a implementação do projet
 Os seguintes softwares são essenciais para a instalação do projeto:
 
 [![git](https://img.shields.io/badge/git-2.44.0-brightgreen.svg?logo=git)](https://git-scm.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![php](https://img.shields.io/badge/php-8.2.5-brightgreen.svg?logo=php)](https://www.php.net/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![laravel](https://img.shields.io/badge/laravel-10.48.7-brightgreen.svg?logo=laravel)](https://laravel.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![node](https://img.shields.io/badge/node-21.6.2-brightgreen.svg?logo=nodedotjs)](https://nodejs.org/en)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![npm](https://img.shields.io/badge/npm-10.5.2-brightgreen.svg?logo=npm)](https://www.npmjs.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![composer](https://img.shields.io/badge/composer-2.7.2-brightgreen.svg?logo=composer)](https://getcomposer.org/)
 
 A versão informada é a utilizada atualmente no projeto e diferente das versões indicadas na monografia. O Laravel está incluso no projeto e não possui a necessidade de instalação prévia.
